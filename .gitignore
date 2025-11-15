@@ -1,0 +1,37 @@
+# Python-generated files
+build/
+dist/
+wheels/
+*.egg-info
+*.py[oc]
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+
+# Ignore the datasets
+/data/
+
+# Ignore the large pretrained models
+/pretrained/
+
+# Other data/logs to ignore
+checkpoints
+archive
+LossAnalysis.ipynb
+.ipynb_checkpoints
+example_loggers
+
+# macOS/Windows system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+cheatsheet.png
+
+uv.lock
